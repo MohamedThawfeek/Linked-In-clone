@@ -1,0 +1,127 @@
+.sidebarRow {
+  display: flex;
+  width: 250px;
+  background: white;
+  height: 57vh;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+.sidebarRow hr {
+  margin-top: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(104, 100, 100, 0.637);
+}
+
+.sidebarRow__top {
+  display: grid;
+  place-items: center;
+}
+
+.sidebarRow__top .background {
+  background: linear-gradient(to right, gray, whiteSmoke);
+  height: 70px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.sidebarRow__top .img {
+  height: 90px;
+  width: 90px;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  cursor: pointer;
+}
+
+.sidebarRow__top h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.sidebarRow__top h3:hover{
+    text-decoration: underline;
+
+ }
+
+.sidebarRow__center--content {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.sidebarRow__center--content:hover {
+  background: rgba(199, 186, 186, 0.74);
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.sidebarRow__center--content p {
+  font-size: 12px;
+  color: grey;
+}
+
+.sidebarRow__center--content strong {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sidebarRow__center--content h5 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.sidebarRow__center--content .check {
+  background: linear-gradient(to right top, rgb(216, 162, 45), brown);
+  color: transparent;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 5px 8px 0 0;
+}
+
+.sidebarRow__bottom {
+  margin-top: 10px;
+  display: flex;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.sidebarRow__bottom:hover {
+  background: rgba(199, 186, 186, 0.74);
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.sidebarRow__bottom h5 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sidebarRow__bottom .mark {
+  color: gray;
+}
+
+
+
+@media (max-width: 750px){
+  .sidebarRow{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

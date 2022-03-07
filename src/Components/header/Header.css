@@ -1,0 +1,227 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 3px 0px;
+  background: whitesmoke;
+  box-shadow: 2px -2px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left .MuiSvgIcon-root {
+  color: rgba(0, 0, 255, 0.747);
+  font-size: 45px;
+  margin-left: 30px;
+}
+
+.header__left input {
+  padding: 10px;
+  border-radius: 999px;
+  outline: none;
+  border: none;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.header__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header__option {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header__option p {
+  text-transform: capitalize;
+}
+
+.header__option:hover {
+  background: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+.header__option .MuiSvgIcon-root {
+  color: gray;
+}
+
+.header__option:hover .MuiSvgIcon-root {
+  color: #000;
+}
+
+.header__option--active {
+  border-bottom: 4px solid #000;
+}
+.header__option--active .MuiSvgIcon-root {
+  color: #000;
+}
+
+.image {
+  margin: 0 15px;
+}
+
+.image p {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.image p .MuiSvgIcon-root {
+  color: #000;
+  font-size: 25px;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.4;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+  border-left: 2px solid #000;
+  padding: 0 10px;
+}
+
+.appIcon {
+  margin-left: 15px;
+}
+
+.appIcon .MuiSvgIcon-root {
+  color: gray;
+}
+
+.appIcon .MuiSvgIcon-root:hover {
+  color: black;
+}
+.appIcon p {
+  display: flex;
+}
+
+.appIcon p .MuiSvgIcon-root {
+  color: #000;
+}
+
+.header__right a {
+  text-decoration: none;
+  color: rgba(255, 217, 0, 0.719);
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.header__right a:hover {
+  text-decoration: underline;
+}
+
+.header__right Button {
+  background: rgba(0, 0, 255, 0.712);
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.header__right Button:hover {
+  background: transparent;
+  color: rgba(0, 0, 255, 0.712);
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__left {
+    margin-top: 10px;
+  }
+
+  .header__left input {
+    width: 350px;
+  }
+
+  .header__center {
+    margin-top: 10px;
+  }
+
+  .header__option {
+    padding: 0 10px;
+  }
+
+
+
+  .header__option:hover {
+    padding: 0 10px;
+   
+  }
+
+
+  
+
+
+  .header__right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__left {
+    margin-top: 10px;
+  }
+
+  .header__left input {
+    width: 350px;
+  }
+
+  .header__center {
+    margin-top: 10px;
+  }
+
+  .header__option {
+    padding: 0 10px;
+  }
+
+   .header__option ,.MuiSvgIcon-root{
+     font-size: x-large !important;
+   }
+
+  .header__option:hover {
+    padding: 0 10px;
+    background: none;
+  }
+
+  .header__option p {
+    
+    font-size: 12px;
+  }
+  
+
+
+  .header__right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.frame {
+  margin:  10px;
+}
+
+@media (max-width: 750px) {
+  .widget {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

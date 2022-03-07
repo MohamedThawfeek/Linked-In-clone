@@ -1,0 +1,18 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    flex: .9;
+    margin-top: 40px;
+    background: #dadada;
+    margin-bottom: 30px;
+}
+
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
